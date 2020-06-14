@@ -1,3 +1,5 @@
+package com.aim.arrays;
+
 import java.util.Scanner;
 
 public class SortIntegersSolution {

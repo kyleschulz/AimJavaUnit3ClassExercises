@@ -1,3 +1,5 @@
+package com.aim.arrays;
+
 public class GetAverageUtils {
 
     public static void main(String[] args) {
