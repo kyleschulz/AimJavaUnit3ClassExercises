@@ -1,4 +1,4 @@
-package com.aim.animals;
+package com.aim.unit2;
 
 import java.util.Scanner;
 
