@@ -1,10 +1,10 @@
 package com.aim.animals;
 
-public class Cat extends Animal {
+public class Duck implements Pet {
 
     @Override
-    public void makeNoise() {
-        System.out.println("Meow");
+    public void play() {
+        System.out.println("Pet the duck.");
     }
 
     @Override
