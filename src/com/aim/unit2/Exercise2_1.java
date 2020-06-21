@@ -17,7 +17,7 @@ public class Exercise2_1 {
         input.close();
 
         // Convert the temperature from celsius to fahrenheit
-        double fahrenheit = (9.0 / 5.0) * celsius + 32;
+        double fahrenheit = (9.0 / 5.0) * celsius + 24;
 
         // 43.50 degrees Celsius is equal to 110.30 degrees Fahrenheit.
         System.out.format("\n%5.2f degrees Celsius is equal to %5.2f degrees Fahrenheit.\n", celsius, fahrenheit);
