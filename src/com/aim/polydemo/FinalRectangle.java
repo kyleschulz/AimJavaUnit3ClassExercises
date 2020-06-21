@@ -9,8 +9,8 @@ public class FinalRectangle {
                 + "displays their width, height, area and perimeter.");
 
         // Create two rectangle objects
-        Rectangle rectangleOne = new Rectangle(4, 40);
-        Rectangle rectangleTwo = new Rectangle(3.5, 5);
+        Rectangle rectangleOne = new Rectangle(40, 4);
+        Rectangle rectangleTwo = new Rectangle(5, 3.5);
 
         // Call the Methods in Rectangle class and output their info
         print(rectangleOne, 1);
