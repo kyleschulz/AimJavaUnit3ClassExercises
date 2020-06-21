@@ -9,16 +9,20 @@ public class Exercise3_1 {
         System.out.println("\nThis program creates two rectangle objects and "
                 + "displays their width, height, area and perimeter.");
 
+        doWork();
+
+        // Output Goodbye
+        System.out.println("\nGoodbye ...\n");
+    }
+
+    public static void doWork() {
         // Create two rectangle objects
-        Rectangle rectangleOne = new Rectangle(40, 4);
+        Rectangle rectangleOne = new Rectangle(4, 40);
         Rectangle rectangleTwo = new Rectangle(5, 3.5);
 
         // Call the Methods in Rectangle class and output their info
         print(rectangleOne, 1);
         print(rectangleTwo, 2);
-
-        // Output Goodbye
-        System.out.println("\nGoodbye ...\n");
     }
 
     /**
