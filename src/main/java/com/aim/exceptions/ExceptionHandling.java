@@ -1,6 +1,6 @@
 package com.aim.exceptions;
 
-public class MultipleCatchBlocks {
+public class ExceptionHandling {
 
     public static int[] arrayOfNumbers = new int[10];
 
