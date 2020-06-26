@@ -34,6 +34,10 @@ public class GeometricObject {
         this.color = color;
     }
 
+    public double getArea() {
+        return 0.0;
+    }
+
     /**
      * Return filled. Since filled is boolean, 30 its getter method is named
      * isFilled
